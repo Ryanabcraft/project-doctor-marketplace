@@ -1,0 +1,20 @@
+{
+  "name": "ryan-local",
+  "interface": {
+    "displayName": "Ryan Local Plugins"
+  },
+  "plugins": [
+    {
+      "name": "project-dotcor",
+      "source": {
+        "source": "local",
+        "path": "./plugins/project-dotcor"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

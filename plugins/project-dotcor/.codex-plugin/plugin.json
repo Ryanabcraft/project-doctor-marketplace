@@ -1,0 +1,38 @@
+{
+  "name": "project-dotcor",
+  "version": "0.1.0",
+  "description": "A general project diagnostic plugin for Codex workspaces.",
+  "author": {
+    "name": "Ryan",
+    "email": "",
+    "url": ""
+  },
+  "homepage": "",
+  "repository": "",
+  "license": "MIT",
+  "keywords": [
+    "diagnostics",
+    "projects"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Project Dotcor",
+    "shortDescription": "Diagnose any local project and suggest the next commands.",
+    "longDescription": "Project Dotcor helps Codex inspect a workspace, identify the project type, find common setup files, and suggest practical commands to run, test, build, or repair the project.",
+    "developerName": "Ryan",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "websiteURL": "",
+    "privacyPolicyURL": "",
+    "termsOfServiceURL": "",
+    "defaultPrompt": [
+      "Use Project Dotcor to diagnose this project.",
+      "Find how to run, test, and build this workspace.",
+      "Check this folder for common project setup problems."
+    ],
+    "brandColor": "#2563EB"
+  }
+}

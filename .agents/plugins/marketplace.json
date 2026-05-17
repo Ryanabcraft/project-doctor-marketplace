@@ -1,14 +1,14 @@
-{
+﻿{
   "name": "ryan-local",
   "interface": {
     "displayName": "Ryan Local Plugins"
   },
   "plugins": [
     {
-      "name": "project-dotcor",
+      "name": "project-doctor",
       "source": {
         "source": "local",
-        "path": "./plugins/project-dotcor"
+        "path": "./plugins/project-doctor"
       },
       "policy": {
         "installation": "AVAILABLE",
@@ -18,3 +18,4 @@
     }
   ]
 }
+
